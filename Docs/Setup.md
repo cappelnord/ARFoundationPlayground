@@ -21,7 +21,7 @@ Building/Deploying for/on iOS can be a bit more tricky, especially if not the mo
 * An [Apple Developer ID](https://developer.apple.com/) is needed (a free ID is fine! No need to enrol into the paid Apple Developer Program)
 * [Xcode](https://apps.apple.com/de/app/xcode/id497799835?mt=12) must be installed.
 * The Apple ID must be signed into Xcode (Preferences -> Accounts)
-* The device must be setup for development (in Xcode: Window -> Devices and Simulators)
+* The device must be setup for development (in Xcode after connecting the device: Window -> Devices and Simulators)
 
 
 
@@ -31,7 +31,7 @@ Basic steps on how to setup an ARFoundation scene from scratch.
 ### Project Setup
 
 * Create a new Unity project using the 3D template.
-* Install required packages (Window -> Package Manager)
+* Install required packages (Window -> Package Manager -> Unity Registry)
 * * AR Foundation
 * * For building for Android: ARCore XR Plugin
 * * For building for iOS: ARKit XR Plugin
