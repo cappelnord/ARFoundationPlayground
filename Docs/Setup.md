@@ -10,14 +10,19 @@
 * Device needs to be connected via USB to the Mac or PC.
 * When connecting the device to the Mac or PC make sure to trust this device on your phone.
 
+Special considerations on macOS: In case Unity is not run by the same user that also installed Unity an error can occur when building for Android. 
+
 ### Building/Deploying for/on iOS
 
-Building/Deploying for/on iOS can be a bit more tricky, especially if not the most current versions of Xcode, iOS and macOS are used. Otherwise things can work if versions are compatible. But often problems will arise!
+Building/Deploying for/on iOS can be a bit more tricky, especially if not the most current versions of Xcode, iOS and macOS are used. Otherwise things can work if versions are compatible - but problems can arise!
 
 * iOS Build Support Module has to be installed via Unity Hub.
 * Any device more recent than the iPhone 6s/iPhone SE (First Generation) will work.
 * An [Apple Developer ID](https://developer.apple.com/) is needed (a free ID is fine! No need to enrol into the paid Apple Developer Program)
-* ...
+* [Xcode](https://apps.apple.com/de/app/xcode/id497799835?mt=12) must be installed.
+* The Apple ID must be signed into Xcode (Preferences -> Accounts)
+* The device must be setup for development (in Xcode: Window -> Devices and Simulators)
+
 
 
 ## Basic Unity Setup
