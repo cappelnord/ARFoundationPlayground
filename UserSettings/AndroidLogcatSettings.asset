@@ -1,0 +1,143 @@
+{
+    "m_SelectedDeviceId": "192.168.0.159:5555",
+    "m_SelectedPackage": {
+        "deviceId": "192.168.0.159:5555",
+        "name": "com.DefaultCompany.ARFoundationPlayground",
+        "processId": 1193,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "99051FFAZ008RC",
+            "name": "com.google.android.apps.nexuslauncher",
+            "processId": 12976,
+            "exited": false
+        },
+        {
+            "deviceId": "99051FFAZ008RC",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 20845,
+            "exited": true
+        },
+        {
+            "deviceId": "99051FFAZ008RC",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 22056,
+            "exited": true
+        },
+        {
+            "deviceId": "99051FFAZ008RC",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 22467,
+            "exited": true
+        },
+        {
+            "deviceId": "99051FFAZ008RC",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 23556,
+            "exited": true
+        },
+        {
+            "deviceId": "99051FFAZ008RC",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 24268,
+            "exited": true
+        },
+        {
+            "deviceId": "99051FFAZ008RC",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 24849,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.159:5555",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 29238,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.159:5555",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 29675,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.159:5555",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 30400,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.159:5555",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 30855,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.159:5555",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 32327,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.159:5555",
+            "name": "com.DefaultCompany.ARFoundationPlayground",
+            "processId": 1193,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
