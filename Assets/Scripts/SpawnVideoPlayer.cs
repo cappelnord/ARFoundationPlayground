@@ -21,6 +21,8 @@ public class SpawnVideoPlayer : MonoBehaviour
     private GameObject videoPlayerObject;
     private GameObject videoPlayerButtonObject;
 
+    private VideoPlayer videoPlayer;
+
     public bool Loop = true;
 
     void Start()
@@ -30,7 +32,7 @@ public class SpawnVideoPlayer : MonoBehaviour
 
         videoPlayerObject = Instantiate(videoPlayerPrefab, transform);
 
-        VideoPlayer videoPlayer = videoPlayerObject.GetComponent<VideoPlayer>();
+        videoPlayer = videoPlayerObject.GetComponent<VideoPlayer>();
         videoPlayer.clip = LinkReferenceToVideo.Get(referenceImage.name);
         videoPlayer.isLooping = Loop;
         videoPlayer.Play();
@@ -39,6 +41,7 @@ public class SpawnVideoPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        videoPlayerObject.GetComponent<MeshRenderer>().enabled = videoPlayer.isPlaying;
         videoPlayerObject.transform.localScale = new Vector3(trackedImage.size.x * 0.1f, 1f, trackedImage.size.y * 0.1f);
     }
 }
