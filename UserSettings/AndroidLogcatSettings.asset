@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "192.168.0.159:5555",
+    "m_SelectedDeviceId": "99051FFAZ008RC",
     "m_SelectedPackage": {
-        "deviceId": "192.168.0.159:5555",
+        "deviceId": "99051FFAZ008RC",
         "name": "com.DefaultCompany.ARFoundationPlayground",
-        "processId": 1193,
+        "processId": 7051,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -17,37 +17,37 @@
         {
             "deviceId": "99051FFAZ008RC",
             "name": "com.DefaultCompany.ARFoundationPlayground",
-            "processId": 20845,
+            "processId": 22869,
             "exited": true
         },
         {
             "deviceId": "99051FFAZ008RC",
             "name": "com.DefaultCompany.ARFoundationPlayground",
-            "processId": 22056,
+            "processId": 24255,
             "exited": true
         },
         {
             "deviceId": "99051FFAZ008RC",
             "name": "com.DefaultCompany.ARFoundationPlayground",
-            "processId": 22467,
+            "processId": 24750,
             "exited": true
         },
         {
             "deviceId": "99051FFAZ008RC",
             "name": "com.DefaultCompany.ARFoundationPlayground",
-            "processId": 23556,
+            "processId": 25267,
             "exited": true
         },
         {
             "deviceId": "99051FFAZ008RC",
             "name": "com.DefaultCompany.ARFoundationPlayground",
-            "processId": 24268,
+            "processId": 7051,
             "exited": true
         },
         {
             "deviceId": "99051FFAZ008RC",
             "name": "com.DefaultCompany.ARFoundationPlayground",
-            "processId": 24849,
+            "processId": 8075,
             "exited": false
         },
         {
