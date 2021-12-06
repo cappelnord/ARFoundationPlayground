@@ -8,7 +8,7 @@ public class PlanePlacement : MonoBehaviour
 {
 
     [SerializeField]
-    private GameObject prefab;
+    private GameObject objectToPlace;
 
     [SerializeField]
     private GameObject pointerPrefab;
@@ -23,8 +23,6 @@ public class PlanePlacement : MonoBehaviour
     private GameObject pointer;
     private ARRaycastManager raycastManager;
 
-    private Vector2 screenCenter;
-
     void Awake() {
         raycastManager = GetComponent<ARRaycastManager>();
     }
@@ -32,12 +30,13 @@ public class PlanePlacement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        screenCenter = new Vector2(Screen.width/2, Screen.height/2);
 
         if(pointerPrefab != null) {
             pointer = Instantiate(pointerPrefab, targetTransform);
             pointer.SetActive(false);
         }
+
+        objectToPlace.SetActive(false);
 
     }
 
@@ -45,6 +44,8 @@ public class PlanePlacement : MonoBehaviour
     void Update()
     {
         List<ARRaycastHit> hits = new List<ARRaycastHit>();
+
+        Vector2 screenCenter = new Vector2(Screen.width/2, Screen.height/2);
 
         if(raycastManager.Raycast(screenCenter, hits, trackableTypes: TrackableType.PlaneWithinPolygon)) {
             Pose pose = hits[0].pose;
@@ -56,7 +57,8 @@ public class PlanePlacement : MonoBehaviour
                         Destroy(spawnedObject);
                         spawnedObject = null;
                     } else {
-                        spawnedObject = Instantiate(prefab, targetTransform);
+                        spawnedObject = Instantiate(objectToPlace, targetTransform);
+                        spawnedObject.SetActive(true);
                         spawnedObject.transform.position = pose.position;
                         spawnedObject.transform.rotation = pose.rotation;
                     }

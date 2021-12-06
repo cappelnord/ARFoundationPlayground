@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b816e75fa2f40cda083735649956b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5011288282944840598, guid: 8c670ba8d9f694d65b8ba29bedcaea6c, type: 3}
+  objectToPlace: {fileID: 5011288282944840598, guid: 8c670ba8d9f694d65b8ba29bedcaea6c, type: 3}
   pointerPrefab: {fileID: 5130292855961984482, guid: 8ed457cec4646402e870b70b5070ff72, type: 3}
   targetTransform: {fileID: 223974228}
   placeMultiple: 0
