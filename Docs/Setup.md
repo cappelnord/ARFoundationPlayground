@@ -6,7 +6,7 @@
 
 * Android Build Support Module has to be installed via Unity Hub. When installing then expand the module and also install *Android SDK & NDK Tools* and *OpenJDK*. 
 * An [ARCore compatible device](https://developers.google.com/ar/devices) is needed to test things.
-* [Developer Options and USB Debugging must be activated for this device.](https://developer.android.com/studio/debug/dev-options)
+* [**Developer Options** and **USB Debugging** must be activated for this device.](https://developer.android.com/studio/debug/dev-options)
 * Device needs to be connected via USB to the Mac or PC.
 * When connecting the device to the Mac or PC make sure to trust this device on your phone.
 
